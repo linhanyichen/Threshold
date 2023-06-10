@@ -7,7 +7,6 @@ import org.deep.threshold.util.{DFUtil, HDFSUtil, LogUtil, ShellUtil}
 
 /**
   * 数据预处理类,将全集数据按照主干组分别存储
-  * create by zhuy 2019-11-14
   */
 object DataPrepare {
 
