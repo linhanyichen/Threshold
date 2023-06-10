@@ -8,7 +8,6 @@ import org.deep.threshold.util.{DFUtil, HDFSUtil, LogUtil}
 
 /**
   * 获取所有纳入阈值表计算的样本数据
-  * create by zhuy 2021-04-02
   */
 object GetAllValidSampleData {
 
