@@ -10,7 +10,6 @@ import scala.actors.threadpool.{ExecutorService, Executors}
 
 /**
   * 集群版阈值表计算处理类
-  * create by zhuy 2019-11-06
   */
 object RunThresholdSpark {
 
