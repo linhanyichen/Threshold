@@ -6,7 +6,6 @@ import org.apache.spark.sql.{DataFrame, SparkSession}
 
 /**
   * 获取各主干组有效病历信息所在亚组信息
-  * create by zhuy 2020-07-14
   */
 object GetDRGsResult {
 
