@@ -8,7 +8,6 @@ import org.deep.threshold.util.{HDFSUtil, LogUtil, ShellUtil, SubCodeUtil}
 
 /**
   * 子集划分处理类
-  * create by zhuy 2019-10-31
   */
 class SubSetParationProc(spark:SparkSession) extends ProcTrait{
 
