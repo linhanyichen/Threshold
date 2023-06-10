@@ -10,7 +10,6 @@ import scala.collection.mutable.ListBuffer
 
 /**
   * HDFS文件操作工具类
-  * create by zhuy 2019-10-30
   */
 object HDFSUtil {
 
