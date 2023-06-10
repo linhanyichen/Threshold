@@ -8,7 +8,6 @@ import org.deep.threshold.util.LogUtil
 
 /**
   * 子集费用中位数Kmeans聚类处理(内存版)
-  * create by zhuy 2019-11-20
   */
 class MedianKmeans {
   private [this] var mainCode:String = ""
