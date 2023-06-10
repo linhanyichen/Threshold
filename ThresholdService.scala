@@ -8,7 +8,6 @@ import org.deep.threshold.util.{DFExcelUtil, DFUtil, HDFSUtil, LogUtil, ShellUti
 import scala.collection.mutable
 /**
   * 阈值表计算服务类
-  * create by zhuy 2019-11-15
   */
 object ThresholdService {
   private var codeList:List[String] = List.empty
