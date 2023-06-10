@@ -9,7 +9,6 @@ import org.deep.threshold.util.{LogUtil, StatUtil, SubCodeUtil}
 
 /**
   * 诊断,手术子集划分处理(内存版本)
-  * create by zhuy 2019-11-18
   */
 class SSParationProc (spark:SparkSession) extends ProcTrait{
 
