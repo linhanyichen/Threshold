@@ -8,7 +8,6 @@ import org.deep.threshold.util._
 
 /**
   * K-models 聚类算法
-  * create by zhuy 2019-10-28
   */
 class KModels(spark:SparkSession) {
 
