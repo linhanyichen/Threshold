@@ -8,7 +8,6 @@ import org.deep.threshold.util.{LogUtil, ShellUtil}
 
 /**
   * KModels 聚类算法进行子集划分处理类
-  * create by zhuy 2019-11-01
   */
 class KModelsParationProc(spark:SparkSession) extends ProcTrait {
   private [this] var subCodeList:util.List[String] = new util.LinkedList[String]()
