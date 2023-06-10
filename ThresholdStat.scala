@@ -7,7 +7,6 @@ import org.deep.threshold.util.{DFExcelUtil, DFUtil, HDFSUtil, LogUtil}
 
 /**
   * 阈值表统计处理
-  * create by zhuy 2019-11-24
   */
 object ThresholdStat {
 
