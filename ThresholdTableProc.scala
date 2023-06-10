@@ -14,7 +14,6 @@ import scala.actors.threadpool.ExecutorService
   * 其中 TF(m,n) = 子集m中属性n的值/子集m中属性累加值
   *      IDF(n) = log10(所有子集个数/包含属性n的子集个数)
   *      权系数(m,n) = TF(m,n) * IDF(n)
-  * create by zhuy 2019-11-08
   */
 class ThresholdTableProc(spark:SparkSession) extends ProcTrait {
   private [this] var tTableProp:List[String] = List.empty        // 阈值表属性字段列表
