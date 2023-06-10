@@ -5,7 +5,6 @@ import java.util.UUID
 
 /**
   * 子集码生成工具类
-  * create by zhuy 2019-10-29
   */
 object SubCodeUtil {
 
