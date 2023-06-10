@@ -5,7 +5,6 @@ import java.util.Calendar
 
 /**
   * 日志信息工具类
-  * create by zhuy 2019-10-28
   */
 object LogUtil {
 
