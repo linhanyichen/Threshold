@@ -6,7 +6,6 @@ import org.apache.spark.sql.{DataFrame, Row}
 
 /**
   * DataFrame 工具类
-  * create by zhuy 2019-10-29
   */
 object DFUtil {
 
