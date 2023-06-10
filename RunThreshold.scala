@@ -10,7 +10,6 @@ import java.util.HashMap
 
 /**
   * 按主干组执行阈值表计算处理
-  * create by zhuy 2019-11-20
   */
 object RunThreshold {
 
