@@ -2,7 +2,6 @@ package org.deep.threshold.dict
 
 /**
   * 数据字典及常量定义类
-  * create by zhuy 2019-10-29
   */
 object Dict {
 
