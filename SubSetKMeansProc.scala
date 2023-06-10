@@ -10,7 +10,6 @@ import scala.util.parsing.json.JSONObject
 
 /**
   * 亚组Kmeans处理类
-  * create by zhuy 2019-11-07
   */
 class SubSetKMeansProc(spark:SparkSession) extends ProcTrait {
 
