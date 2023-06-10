@@ -9,7 +9,6 @@ import org.deep.threshold.util.{LogUtil, StatUtil}
 
 /**
   * 子集聚类划分亚组(内存版)
-  * create by zhuy 2019-11-20
   */
 class SSKmeansProc(spark:SparkSession) extends ProcTrait {
   // 有效的主干组数据
@@ -25,7 +24,7 @@ class SSKmeansProc(spark:SparkSession) extends ProcTrait {
   private [this] val kmeans:MedianKmeans = new MedianKmeans
   private [this] var delCodeList:List[String] = List.empty
 
-  //add by zhuy 2020-01-21 for 子集划分变异系数值参数化处理
+
   private [this] var cvList:List[Double] = List(0.4,0.6,0.8)
 
   var schema:StructType = null
