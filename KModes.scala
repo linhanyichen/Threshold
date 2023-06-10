@@ -8,7 +8,6 @@ import org.deep.threshold.util._
 
 /**
   * K-modes 聚类算法(内存版)
-  * create by zhuy 2019-11-20
   */
 class KModes() {   // 子集费用分析DF
   private [this] var centers:Array[Vector[Int]] = new Array[Vector[Int]](3)    // 中心点,默认为3个
